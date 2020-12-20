@@ -16,7 +16,7 @@ Feature: Calculator
       | add      | 7 | 9 |     16 | positive |
       | subtract | 7 | 9 |      2 | negative |
 
-  @combinedtag
+  @combinedtag @others #dummy
   Scenario Outline: Floating point numbers
     Given I have been given with <x> <y>
     When I ask calcl to do "<function>"
