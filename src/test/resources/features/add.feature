@@ -15,7 +15,7 @@ Feature: Calculator Add
       | 7 | 9 |     16 |
       
   @addtag
-  Scenario Outline: calculate add other
+  Scenario Outline: calculate add others
     Given I have a calc with <a> <b>
     When I ask it to say add
     Then it should answer with add <result>
