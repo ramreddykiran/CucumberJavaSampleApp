@@ -47,4 +47,11 @@
 			</plugins>
 		</pluginManagement>
 	</build>
+	<modules>
+        <module>test1</module>
+        <module>ABCD/test21</module>
+        <module>ABCD/test22</module>
+        <module>ABCD/test23</module>
+        <module>XYZ/test21</module>
+    </modules>
 </project>
