@@ -1,4 +1,4 @@
-package com.def.stepdefs;
+package com.def.stepdefs.combined;
 
 import static org.junit.Assert.assertEquals;
 

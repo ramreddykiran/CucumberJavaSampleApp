@@ -1,3 +1,13 @@
+Run feature files from terminal
+-- to run all tests
+mvn test
+mvn test -Dtest=UITestRunner
+--run test with of tag
+mvn test -Dcucumber.options="--tags @addtag"
+--run tests of multiple tags
+mvn test -Dcucumber.options="--tags @addtag,@combinedtag"
+
+
 # This is a comprehensive Tutorial to cover the Cucumber features
  - Maven dependencies
        
