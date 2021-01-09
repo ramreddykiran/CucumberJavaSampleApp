@@ -1,11 +1,15 @@
 Run feature files from terminal
 -- to run all tests
 mvn test
-mvn test -Dtest=UITestRunner
+mvn test -Dtest=TestRunner
 --run test with of tag
 mvn test -Dcucumber.options="--tags @addtag"
 --run tests of multiple tags
 mvn test -Dcucumber.options="--tags @addtag,@combinedtag"
+
+CombinedStepDefinitions
+
+mvn test -Dtest=CombinedStepDefinitions
 
 
 # This is a comprehensive Tutorial to cover the Cucumber features
