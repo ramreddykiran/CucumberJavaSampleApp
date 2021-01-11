@@ -4,7 +4,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(tags = { "@combinedtag" }, 
+@CucumberOptions(//tags = { "@combinedtag" }, 
 plugin = { "pretty:pretty-report.log", 
 		"html:target/html-report",
 		"json:target/json-report.json" ,
